@@ -5,7 +5,11 @@ if( hour > 12){
   hour = hour-12
   tod = "PM"
 }
-document.getElementById("timestamp").innerHTML = "Today at "+hour +":"+ d.getMinutes()+ " "+tod;
+var min = d.getMinutes();
+if( min < 10){
+  min = '0'+min
+}
+document.getElementById("timestamp").innerHTML = "Today at "+hour +":"+ min+ " "+tod;
 
 
 var botui = new BotUI('my-botui-app');
