@@ -3,6 +3,16 @@ body {}
   display:none;
   margin-top: -30px;
 }
+
+#my-botui-app{
+  margin-top: -25px;
+  background: transparent;
+}
+@media (max-width: 576px) {
+  #my-botui-app{
+    margin-top: 0;
+  }
+}
 .botui-container{
   height:auto;
   max-height:100%;

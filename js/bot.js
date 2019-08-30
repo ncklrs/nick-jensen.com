@@ -31,7 +31,8 @@ botui.message.add({
               .then(function(){
                 botui.message.add({
                   delay:500,
-                //  loading:true,
+                  loading: false,
+                  type: 'html',
                   cssClass: 'only-btn',
                   content: '<a href="https://m.me/connectwnick" class="btn btn-primary"><!----> Click here to Start</a>'
                 })
@@ -41,3 +42,12 @@ botui.message.add({
           });
         });
       });
+
+var d = new Date();
+var hour = d.getHours();
+var tod = "AM"
+if( hour > 12){
+  hour = hour-12
+  tod = "PM"
+}
+document.getElementById("timestamp").innerHTML = "Today at "+hour +":"+ d.getMinutes()+ " "+tod;
