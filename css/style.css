@@ -1,0 +1,19 @@
+body {}
+#messenger-btn{
+  display:none;
+  margin-top: -30px;
+}
+.botui-container{
+  height:auto;
+  max-height:100%;
+}
+.botui-message-content.text{
+  font-size: 15px;
+}
+.btn{
+  border-radius: 5px;
+}
+.only-btn .botui-message-content{
+  background-color: transparent;
+  padding-left: 0;
+}
