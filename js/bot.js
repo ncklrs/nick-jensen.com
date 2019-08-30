@@ -1,3 +1,13 @@
+var d = new Date();
+var hour = d.getHours();
+var tod = "AM"
+if( hour > 12){
+  hour = hour-12
+  tod = "PM"
+}
+document.getElementById("timestamp").innerHTML = "Today at "+hour +":"+ d.getMinutes()+ " "+tod;
+
+
 var botui = new BotUI('my-botui-app');
 
 botui.message.add({
@@ -42,12 +52,3 @@ botui.message.add({
           });
         });
       });
-
-var d = new Date();
-var hour = d.getHours();
-var tod = "AM"
-if( hour > 12){
-  hour = hour-12
-  tod = "PM"
-}
-document.getElementById("timestamp").innerHTML = "Today at "+hour +":"+ d.getMinutes()+ " "+tod;
