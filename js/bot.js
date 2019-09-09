@@ -48,7 +48,7 @@ botui.message.add({
                   loading: false,
                   type: 'html',
                   cssClass: 'only-btn',
-                  content: '<a href="https://m.me/connectwnick" class="btn btn-primary"><!----> Click here to Start</a>'
+                  content: '<a href="https://m.me/connectwnick" class="btn btn-primary"><!----> Click here to Start A Conversation</a>'
                 })
 
               });
