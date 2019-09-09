@@ -23,24 +23,24 @@ botui.message.add({
         botui.message.add({
           delay: 2000,
           loading: true,
-          content: 'I help business owners create engaging digital experiences that drive revenue. Just text me what you’re primary marketing objective is on FB Messenger'
+          content: 'I give SaaS businesses a formula and framework for predictable growth'
         }).then(function(){
           botui.message.add({
             delay:1000,
             loading:true,
-            content: 'I’ll send you the best options to help you increase sales'
+            content: 'And put them on a 90-day path to DOUBLING their sales'
           })
           .then(function(){
             botui.message.add({
               delay:1000,
               loading:true,
-              content: 'Tell me which you idea love and I’ll send you more details 👍'
+              content: 'Think of me as your secret marketing super power 💪🤵'
             })
             .then(function(){
               botui.message.add({
                 delay:1000,
                 loading:true,
-                content: 'Think of me as your secret marketing super power 💪🤵'
+                content: 'Are you ready to double your MRR? Then let\'s chat'
               })
               .then(function(){
                 botui.message.add({
