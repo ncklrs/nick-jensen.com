@@ -23,14 +23,14 @@ botui.message.add({
         botui.message.add({
           delay: 2000,
           loading: true,
-          content: 'I\'m a conversational marketing junkie.'
+          content: 'I\'m a conversational marketing junkie 🤖'
           //content: 'I give SaaS businesses a formula and framework for predictable growth'
         }).then(function(){
           botui.message.add({
             delay:1000,
             loading:true,
             //content: 'And put them on a 90-day path to DOUBLING their sales'
-            content: 'I help businesses connect with their customers with SMS, Messenger and Chat'
+            content: 'I help businesses connect with their customers on channels like SMS, Messenger and Chat'
           })
           .then(function(){
             botui.message.add({
