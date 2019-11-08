@@ -23,14 +23,14 @@ botui.message.add({
         botui.message.add({
           delay: 2000,
           loading: true,
-          content: 'I create engaging digital experiences using a proven formula and framework'
+          content: 'I\'m a conversational marketing junkie.'
           //content: 'I give SaaS businesses a formula and framework for predictable growth'
         }).then(function(){
           botui.message.add({
             delay:1000,
             loading:true,
             //content: 'And put them on a 90-day path to DOUBLING their sales'
-            content: 'that will put you on a 90-day path to DOUBLING your sales'
+            content: 'I help businesses connect with their customers with SMS, Messenger and Chat'
           })
           .then(function(){
             botui.message.add({
@@ -42,7 +42,7 @@ botui.message.add({
               botui.message.add({
                 delay:1000,
                 loading:true,
-                content: 'Are you ready to double your sales? Then let\'s chat'
+                content: 'Are you ready to grow your business with conversation? Then let\'s chat'
               })
               .then(function(){
                 botui.message.add({
@@ -50,7 +50,7 @@ botui.message.add({
                   loading: false,
                   type: 'html',
                   cssClass: 'only-btn',
-                  content: '<a href="https://m.me/connectwnick" class="btn btn-primary"><!----> Click here to Start A Conversation</a>'
+                  content: '<a href="https://m.me/connectwnick" class="btn btn-primary"><!----> Click here to Start A Conversation on Messenger</a>'
                 })
 
               });
