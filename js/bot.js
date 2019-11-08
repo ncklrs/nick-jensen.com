@@ -23,12 +23,14 @@ botui.message.add({
         botui.message.add({
           delay: 2000,
           loading: true,
-          content: 'I give SaaS businesses a formula and framework for predictable growth'
+          content: 'I create engaging digital experiences using a proven formula and framework'
+          //content: 'I give SaaS businesses a formula and framework for predictable growth'
         }).then(function(){
           botui.message.add({
             delay:1000,
             loading:true,
-            content: 'And put them on a 90-day path to DOUBLING their sales'
+            //content: 'And put them on a 90-day path to DOUBLING their sales'
+            content: 'that will put you on a 90-day path to DOUBLING your sales'
           })
           .then(function(){
             botui.message.add({
@@ -40,7 +42,7 @@ botui.message.add({
               botui.message.add({
                 delay:1000,
                 loading:true,
-                content: 'Are you ready to double your MRR? Then let\'s chat'
+                content: 'Are you ready to double your sales? Then let\'s chat'
               })
               .then(function(){
                 botui.message.add({
