@@ -30,7 +30,7 @@ botui.message.add({
             delay:1000,
             loading:true,
             //content: 'And put them on a 90-day path to DOUBLING their sales'
-            content: 'I help businesses connect with their customers on channels like SMS, Messenger and Chat'
+            content: 'I help DTC brands drive renenue through channels like SMS, Messenger and Chat'
           })
           .then(function(){
             botui.message.add({
