@@ -23,26 +23,37 @@ botui.message.add({
         botui.message.add({
           delay: 2000,
           loading: true,
-          content: 'I\'m a conversational marketing junkie 🤖'
+          content: 'I\’m a designer, coder, music lover and coffee enthusiast residing in Northeast Ohio'
+          //content: 'I\'m a conversational marketing junkie 🤖'
           //content: 'I give SaaS businesses a formula and framework for predictable growth'
         }).then(function(){
           botui.message.add({
-            delay:1000,
+            delay:2000,
             loading:true,
             //content: 'And put them on a 90-day path to DOUBLING their sales'
-            content: 'I help brands drive renenue through channels like SMS, Messenger and Chat'
+            content: 'I help companies create memorable experiences through user centered conversational design.'
+            //content: 'I help brands drive renenue through channels like SMS, Messenger and Chat'
           })
           .then(function(){
             botui.message.add({
-              delay:1000,
+              delay:1500,
               loading:true,
-              content: 'Think of me as your secret marketing super power 💪🤵'
+              //content: 'Think of me as your secret marketing super power 💪🤵'
+              content: 'Think of me as your secret conversational super power 💪🤵'
+
             })
             .then(function(){
               botui.message.add({
-                delay:1000,
+                delay:2000,
                 loading:true,
-                content: 'Are you ready to grow your business with conversation? Then let\'s chat'
+                content: 'Are you ready to create memorable experiences with conversation?'
+              })
+              .then(function(){
+                botui.message.add({
+                  delay:500,
+                  loading:false,
+                  content:'Then let\'s chat'
+                })
               })
               .then(function(){
                 botui.message.add({
